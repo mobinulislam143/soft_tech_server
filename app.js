@@ -47,11 +47,7 @@ app.use((req, res) => {
 
 let URI="mongodb+srv://soft_tech_admin:PMIc5wybWUiTCcBI@cluster0.olinusx.mongodb.net/soft_tech";
 
-mongoose.connect(URI, {
-         useNewUrlParser: true,
-        useUnifiedTopology: true,
-        autoIndex: true,
-})
+mongoose.connect(URI)
 .then(()=> {
     console.log(`Mongoose is connected`)
 }).catch(e => {

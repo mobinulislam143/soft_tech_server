@@ -16,13 +16,11 @@ const userModelSchema = new Schema({
     contactNumber: {
         type: String,
     },
-    isAdmin: {
-        type: Boolean,
-    },
-    addedTime: {
-        type: Number,
-        // required: true
-    },
-})
+    role : {
+        type : String,
+        enum: ["user", "admin"],
+        default : "user"
+    }
+},{timestamps:true,versionKey:false})
 const UserModel = model('users', userModelSchema);
 module.exports = UserModel;   

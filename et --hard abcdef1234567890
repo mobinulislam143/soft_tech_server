@@ -1,0 +1,121 @@
+[33mcommit ed805074c770647f655e66b0e579acb171bf87a4[m[33m ([m[1;36mHEAD -> [m[1;32mmahi-code-wars[m[33m)[m
+Merge: 47bb408 47a9c3d
+Author: Universe IT <universeit343@gmail.com>
+Date:   Thu Aug 15 12:56:20 2024 +0600
+
+    Merge pull request #6 from universeIt137/ashikur_work
+    
+    everything is running
+
+[33mcommit 47a9c3d8636c2ec1a8ee3b5ac9e2c6d06fe86099[m
+Author: ashikur <ashikur1602@gmail.com>
+Date:   Thu Aug 15 12:55:56 2024 +0600
+
+    everything is running
+
+[33mcommit 47bb408b279d888af632a763c67834358b352268[m
+Merge: f36f5c2 e17851d
+Author: Junayet Alam <138348590+junayet4o12@users.noreply.github.com>
+Date:   Thu Aug 15 08:58:55 2024 +0300
+
+    Merge pull request #5 from universeIt137/mahi-code-wars
+    
+    Mahi code wars
+
+[33mcommit e17851d7422363df89c638b75bf3f58c2fd3cc42[m
+Merge: fd8f011 860c165
+Author: Mobinul Islam Mahi <mobinulislammahi@gmail.com>
+Date:   Thu Aug 15 11:13:21 2024 +0600
+
+    Merge branch 'mahi-code-wars' of https://github.com/universeIt137/Soft_Tech_Server into mahi-code-wars
+
+[33mcommit fd8f011f5a5a1ea747392267fe116ea030bab1cb[m
+Author: Mobinul Islam Mahi <mobinulislammahi@gmail.com>
+Date:   Thu Aug 15 11:10:10 2024 +0600
+
+    service controller update
+
+[33mcommit f36f5c247673e9ae44bac283bb0e74dc5cfe849f[m
+Merge: bc27258 2319faf
+Author: Junayet Alam <138348590+junayet4o12@users.noreply.github.com>
+Date:   Wed Aug 14 20:46:21 2024 +0300
+
+    Merge pull request #4 from universeIt137/junaeyt-developer
+    
+    add:[api.js,UserController.js]:All User api has completed
+
+[33mcommit 2319faf5a11419c31a0cc2f21d8250a4e05852c5[m
+Author: junayet <muhammadjunayetmaruf@gmail.com>
+Date:   Wed Aug 14 23:44:15 2024 +0300
+
+    add:[api.js,UserController.js]:All User api has completed
+
+[33mcommit bc2725862a7d8825e74cc17ef72e437c0e2da60c[m
+Merge: 796adbc 2ad5ddd
+Author: Universe IT <universeit343@gmail.com>
+Date:   Tue Aug 13 17:31:45 2024 +0600
+
+    Merge pull request #3 from universeIt137/ashikur_work
+    
+    working on service route
+
+[33mcommit 2ad5ddd28cb98b22f492ee4a3f7d1cfa232651b1[m
+Author: ashikur <ashikur1602@gmail.com>
+Date:   Tue Aug 13 17:30:43 2024 +0600
+
+    working on service route
+
+[33mcommit 796adbc2e4f731ee3727fe67f2194b8db98ccc33[m
+Merge: 01ccaa1 860c165
+Author: Universe IT <universeit343@gmail.com>
+Date:   Tue Aug 13 17:24:19 2024 +0600
+
+    Merge pull request #2 from universeIt137/mahi-code-wars
+    
+    Mahi code wars
+
+[33mcommit 860c1650fc8098510ba41f37d5518fbc8cc99d0e[m
+Merge: a9ccd90 01ccaa1
+Author: Universe IT <universeit343@gmail.com>
+Date:   Tue Aug 13 17:21:28 2024 +0600
+
+    Merge branch 'main' into mahi-code-wars
+
+[33mcommit a9ccd90fb59be5a5b9e403b09152bf9fa7959e71[m
+Author: Mobinul Islam Mahi <mobinulislammahi@gmail.com>
+Date:   Tue Aug 13 16:02:07 2024 +0600
+
+    service controller
+
+[33mcommit 9df13d9e367c348cf4050c0781a88a8ee07dcb1f[m
+Author: Mobinul Islam Mahi <mobinulislammahi@gmail.com>
+Date:   Mon Aug 12 15:00:41 2024 +0600
+
+    basic server
+
+[33mcommit 01ccaa162056701067c839f6b6a3b5d4d0fed73e[m
+Merge: 082d7a3 be59f13
+Author: Universe IT <universeit343@gmail.com>
+Date:   Sun Aug 11 15:20:43 2024 +0600
+
+    Merge pull request #1 from universeIt137/mahi-code-wars
+    
+    Update demoCon.js
+
+[33mcommit 082d7a3f66e6aa4253c91dc008d199a0bcab8c05[m
+Author: Mobinul Islam Mahi <mobinulislammahi@gmail.com>
+Date:   Sun Aug 11 15:18:13 2024 +0600
+
+    db -change
+
+[33mcommit be59f13f13e9b00154b7beb195fb804264594221[m
+Author: Mobinul Islam Mahi <115027489+mobinulislam143@users.noreply.github.com>
+Date:   Sun Aug 11 15:04:21 2024 +0600
+
+    Update demoCon.js
+
+[33mcommit 590d933f054febf17f7cb4ece95c38956ec9ac3d[m
+Author: Mobinul Islam Mahi <mobinulislammahi@gmail.com>
+Date:   Sun Aug 11 12:52:17 2024 +0600
+
+    basic server setup
