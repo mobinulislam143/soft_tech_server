@@ -8,7 +8,8 @@ const userModelSchema = new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     profilePhoto: {
         type: String,
@@ -18,7 +19,12 @@ const userModelSchema = new Schema({
     },
     isAdmin: {
         type: Boolean,
+        role: ["admin", 'user']
     },
+    password: {
+        type: String,
+        required: true
+    }
    
 }, { timestamps: true, versionKey: false })
 const UserModel = model('users', userModelSchema);
