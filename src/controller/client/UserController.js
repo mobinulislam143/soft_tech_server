@@ -16,6 +16,7 @@ exports.CreateUser = async (req, res) => {
 
         if (existingUser) {
             return res.send({ message: ' user already exists' })
+
         }else{
             await EmailSend(email, EmailText, EmailSubject)
             const otpUpdateResult = await OtpModel.updateOne(
@@ -31,6 +32,7 @@ exports.CreateUser = async (req, res) => {
 
             });
             res.status(200).json({ status: 'success', data: result })
+
         }
     } catch (e) {
         console.log(e)
@@ -89,6 +91,7 @@ exports.login = async (req, res) => {
         }
 
     } catch (e) {
+        console.log(e)
         res.status(400).json({ status: 'failed' })
     }
 }

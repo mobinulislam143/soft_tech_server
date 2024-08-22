@@ -8,7 +8,8 @@ const userModelSchema = new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     profilePhoto: {
         type: String,
@@ -21,6 +22,6 @@ const userModelSchema = new Schema({
         enum: ["user", "admin"],
         default : "user"
     }
-},{timestamps:true,versionKey:false})
+},{ timestamps: true, versionKey: false })
 const UserModel = model('users', userModelSchema);
 module.exports = UserModel;   

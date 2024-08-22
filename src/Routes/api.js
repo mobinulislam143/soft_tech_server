@@ -32,6 +32,7 @@ router.post('/EmailVerify/:email/:otp', UserController.EmailVerify)
 router.post('/login', UserController.login)
 router.get('/getProfile',AuthMiddleware, UserController.getProfile)
 
+
 router.get('/Allusers', UserController.getAllUsers)
 router.put('/UpdateUser/:id', UserController.updateUser)
 router.delete('/DeleteUser/:id', UserController.deleteUser)

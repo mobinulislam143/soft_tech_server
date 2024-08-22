@@ -12,6 +12,6 @@ const serviceSchema = new mongoose.Schema({
   liveProjects: [liveProjectSchema]
 }, { timestamps: true, versionKey: false });
 
-const ServiceModel = mongoose.model('Service', serviceSchema);
+const ServiceModel = mongoose.model('Services', serviceSchema);
 
 module.exports = ServiceModel;
