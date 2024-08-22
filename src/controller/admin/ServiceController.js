@@ -23,7 +23,6 @@ exports.getAllService = async(req, res) =>{
 }
 exports.deleteService = async(req, res) =>{
     try{
-
         let id = req.params.serviceId
         await ServiceModel.deleteOne({_id: id})
         res.status(200).json({status: 'success', data: "Data delete Successfully"})
