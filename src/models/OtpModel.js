@@ -5,7 +5,7 @@ const DataSchema = mongoose.Schema({
     otp: {type: String},
     status:{type:Number,default:0},
 
-},{timestamps: true,versionKey:false})
+}, {timestamps: true,versionKey:false})
 
 const OtpModel = mongoose.model('otps', DataSchema)
 module.exports = OtpModel
