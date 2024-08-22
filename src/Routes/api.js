@@ -11,7 +11,7 @@ router.post('/createService', serviceController.CreateService)
 router.delete('/deleteService/:serviceId', serviceController.deleteService)
 router.post('/createCareer', CareerController.CreateCareer)
 router.delete('/deleteCareer/:CareerID', CareerController.deleteCareer)
-
+// user auth
 router.delete('/DeleteUser/:id', UserController.deleteUser)
 router.get('/Allusers', UserController.getAllUsers)
 
